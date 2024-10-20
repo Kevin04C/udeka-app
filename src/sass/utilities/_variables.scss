@@ -1,0 +1,29 @@
+//Color variables
+$background: #232946;
+$heading: #fffffe;
+$paragraph: #b8c1ec;
+$button: #eebbc3;
+$button-text: #232946;
+$stroke: #121629;
+$main: #b8c1ec;
+$highlight: #eebbc3;
+$secondary: #fffffe;
+$tertiary: #eebbc3;
+$white: #ffffff;
+
+$font-size-icons: 1.4rem;
+$width-aside: 6rem;
+
+$padding-main: 2rem;
+$padding-main-left: calc($width-aside + $padding-main);
+
+.bg-background-app {
+  background-color: $background;
+}
+.color-primary-app {
+  color: $highlight !important;
+}
+
+.bg-primary-app {
+  background-color: $highlight;
+}
