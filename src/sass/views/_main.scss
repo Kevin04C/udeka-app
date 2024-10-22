@@ -2,6 +2,7 @@
   width: 100%;
   padding: $padding-main $padding-main $padding-main $padding-main-left;
   height: 100%;
+  box-sizing: border-box;
   @include responsive-max(lg) {
     padding: $padding-main;
   }

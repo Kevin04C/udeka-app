@@ -1,3 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 @import './sass/base/_normalize.css';
 @import './sass/base/typography';
 @import './sass/utilities/variables';
@@ -69,3 +73,9 @@
 // Buttons
 // Button Success
 @import './sass/components/buttons';
+
+* {
+  // margin: 0;
+  // padding: 0;
+  // box-sizing: border-box;
+}

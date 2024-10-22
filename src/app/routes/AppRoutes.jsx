@@ -7,6 +7,8 @@ import { HomePage } from '../pages/HomePage';
 import { Chores } from '../components/chores/Chores';
 import ArticlesSaved from '../pages/ArticlesSaved';
 import { ProfilePage } from '../pages/ProfilePage';
+import ConciertosPage from '../pages/ConciertosPage';
+import IaPage from '../pages/IaPage';
 
 export const AppRoutes = () => {
   return (
@@ -20,6 +22,8 @@ export const AppRoutes = () => {
         <Route path='search' element={<ArticlesPage />} />
         <Route path='calculator' element={<CalculadoraPage />} />
         <Route path='profile' element={<ProfilePage />} />
+        <Route path='conciertos' element={<ConciertosPage />} />
+        <Route path='ia' element={<IaPage />} />
       </Route>
 
       <Route path='*' element={<Navigate to='/' />} />
