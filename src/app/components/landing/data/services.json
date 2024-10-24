@@ -23,5 +23,15 @@
     "title": "Administrador de cursos",
     "text": "Administrada los cursos que estes llevando para que no te pierdas de nada y tengas un mejor desempeño.",
     "button-text": "LO QUIERO PROBAR"
+  },
+  {
+    "title": "Conciertos",
+    "text": "Enterate de los posibles conciertos que se realizaran en tu ciudad, para que no te pierdas de ninguno.",
+    "button-text": "LO QUIERO PROBAR"
+  },
+  {
+    "title": "IA",
+    "text": "Prueba nuestra inteligencia artificial, que te ayudara a resolver problemas tus problemas.",
+    "button-text": "LO QUIERO PROBAR"
   }
 ]
