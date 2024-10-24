@@ -8,9 +8,14 @@ const ConciertoCart = ({ concierto }) => {
   const thumbnailDefault =
     'https://coffective.com/wp-content/uploads/2018/06/default-featured-image.png.jpg';
   let imagenConcierto = thumbnail;
+  let informacionEvento = '';
 
   if (!imagenConcierto) {
     imagenConcierto = thumbnailDefault;
+  }
+
+  if (concierto.info_links.legth > 0) {
+    informacionEvento = concierto.info_links[0].link;
   }
 
   return (
@@ -31,11 +36,14 @@ const ConciertoCart = ({ concierto }) => {
           <p className='text-sm'>{DateUtility.formatearFechayHora(start_time)}</p>
         </div>
       </div>
-      <div className='w-full'>
-        <button className='bg-button text-button-text px-4 py-2 rounded-3xl font-semibold w-full uppercase text-sm hover:contrast-150'>
-          Comprar entrada
-        </button>
-      </div>
+
+      {imagenConcierto && (
+        <div className='w-full'>
+          <a className='bg-button text-button-text px-4 py-2 rounded-3xl font-semibold w-full uppercase text-sm hover:contrast-150'>
+            Más información
+          </a>
+        </div>
+      )}
     </div>
   );
 };
