@@ -39,7 +39,11 @@ const ConciertoCart = ({ concierto }) => {
 
       {imagenConcierto && (
         <div className='w-full'>
-          <a className='bg-button text-button-text px-4 py-2 rounded-3xl font-semibold w-full uppercase text-sm hover:contrast-150'>
+          <a
+            className='bg-button text-button-text px-4 py-2 rounded-3xl font-semibold w-full uppercase text-sm hover:contrast-150 cursor-pointer'
+            href={informacionEvento}
+            target='_blank'
+          >
             Más información
           </a>
         </div>
