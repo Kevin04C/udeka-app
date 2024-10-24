@@ -14,7 +14,7 @@ const ConciertoCart = ({ concierto }) => {
     imagenConcierto = thumbnailDefault;
   }
 
-  if (concierto.info_links.legth > 0) {
+  if (concierto.info_links.length > 0) {
     informacionEvento = concierto.info_links[0].link;
   }
 
